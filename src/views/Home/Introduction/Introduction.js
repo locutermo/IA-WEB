@@ -10,6 +10,7 @@ import {
     CardSubtitle,
     CardHeader,
 } from 'reactstrap'
+import file from '../../../assets/files/silabo.docx'
 import UserCard from '../UserCard/UserCard'
 export default class Introduction extends Component {
   render() {
@@ -35,7 +36,7 @@ export default class Introduction extends Component {
               <li className="list-group-item">
                 <div className="text-center">
                   <h4 className="paddingRight">Silabo </h4>
-                  <a href="src/assets/files/silabo.docx" download="Silabo20201-SISTEMAS-P2014-C06-2010605-Inteligencia-Artificial.docx"><i className="fa fa-download"></i></a>
+                  <a href={file} download="silabo.docx"><i className="fa fa-download"></i></a>
                 </div>
               </li>
 
